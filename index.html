@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>SPY_Decodificador</title>
+</head>
+<body>
+    <header class="cabecalho">
+      <img  class="logo__detetive" src="assets/detetivevscode.png" alt="logo detetive">
+    </header>
+    <main class="conteudo__pagina">
+        <section class="secao__1">
+            <div>
+                <textarea placeholder="Digite seu texto aqui" class="caixa__texto" ></textarea>
+            </div>
+            <div class="alerta"> 
+                <img src="assets/exclamacao.png" alt="ponto de exclamacao">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="conteiner__botoes">
+                <input type="button" class="botao__criptografar" value="Criptografar">
+                <input type="button" class="botao__descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="secao__2">
+            <div>
+            <img class="pc__detetive " src="assets/pc.detetive.svg" alt=" computador detetive">
+            </div>
+            <div>
+                <h3 class="paragrafo__h3  ">Nenhuma mensagem foi <br> encontrada </h3>
+                <p class="paragrafo__p ">Escreva o texto que deseja Criptografar ou <br> Descriptografar.</p>
+            </div>
+            <input type="button" class="botao__copiar" value="copiar"> 
+            <div> 
+                <textarea class="caixa__texto__resultado"></textarea>
+            </div>
+           
+        </section>
+    </main>
+    <footer class="rodape">
+       <p> Desenvolvido por Alex Gonçalves Lopes <br> 2024</p>
+    </footer>
+
+    <script src="app.js" defer></script> 
+</body>
+</html>
