@@ -1,4 +1,4 @@
-<h1>Challenge Decodificador de texto</h1>
+<h1>Challenge Decodificador de texto: Versão desktop!</h1>
 
 <h2>🔖 Sobre</h2>
 <p>Projeto desenvolvido com o aprendizado obtido nos cursos de HTML, CSS e JS da Alura.</p>
